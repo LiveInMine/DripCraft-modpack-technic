@@ -25,8 +25,8 @@ B:showcustomizationbuttons = 'false';
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
+B:hidelogo = 'true';
+B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'false';
 
 
@@ -36,7 +36,7 @@ S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '0';
 I:splashx = '0';
-B:hidesplashtext = 'false';
+B:hidesplashtext = 'true';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 
@@ -54,7 +54,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'LiveInMine - DripCraft';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 

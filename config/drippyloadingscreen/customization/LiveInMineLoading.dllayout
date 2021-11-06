@@ -1,0 +1,30 @@
+type = hud
+
+customization-meta {
+  backgroundimage = CustomMenu/loading.png
+  renderorder = foreground
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = -4
+  action = editprogressbar
+  y = -67
+}
+
+customization {
+  x = 183
+  action = editforgememoryinfo
+  y = 11
+}
+
+customization {
+  x = 0
+  action = editforgestatustext
+  y = -6
+}
+

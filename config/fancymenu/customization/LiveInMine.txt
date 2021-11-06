@@ -1,0 +1,281 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = CustomMenu/background.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 768
+  action = autoscale
+  basewidth = 1360
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-right
+  x = -201
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=400322%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-right
+  x = -262
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=604382%
+  width = 19
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = 145
+  action = movebutton
+  y = -46
+}
+
+customization {
+  identifier = %id=376322%
+  width = 20
+  action = resizebutton
+  height = 21
+}
+
+customization {
+  identifier = %id=376322%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -100
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Opções
+}
+
+customization {
+  identifier = %id=400382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -375
+  action = movebutton
+  y = -213
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = &cSair do Jogo
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = 169
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=376382%
+  width = 21
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = Linguagem
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-right
+  x = -201
+  action = movebutton
+  y = -69
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-right
+  x = -201
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=400346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = top-right
+  x = -170
+  action = movebutton
+  y = 95
+}
+
+customization {
+  identifier = %id=502346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  path = CustomMenu/title.png
+  orientation = top-left
+  x = 210
+  width = 323
+  action = addtexture
+  actionid = 4921353d-6097-41c4-abc8-681357eeeccf1635815285297
+  y = 9
+  height = 145
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  label = §cSair do Jogo
+  loopbackgroundanimations = true
+  hoverlabel = &cSentiremos sua falta!
+  x = 578
+  width = 122
+  actionid = 394c48f7-28be-4aa6-9182-f7c304976d891635815903201
+  action = addbutton
+  y = 217
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = false
+  buttonaction = openlink
+  backgroundhovered = CustomMenu\pressed_button.png
+  description = Discord Oficial do Servidor
+  label = 
+  loopbackgroundanimations = false
+  x = 1
+  width = 35
+  actionid = be2c6a0f-78b3-4693-9609-78399833f3641635816216245
+  action = addbutton
+  y = 351
+  backgroundnormal = CustomMenu\button_background.png
+  value = https://discord.gg/KPZMfwjrhN
+  height = 32
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  description = &a%serverplayercount:dripcraftliveinmine.ddns.net% §rPlayers online
+  label = Servidor Oficial
+  loopbackgroundanimations = true
+  x = 169
+  width = 201
+  actionid = 4fd983f7-ba8a-4fdb-bb2a-6a78002279281635816681378
+  action = addbutton
+  y = -46
+  value = dripcraftliveinmine.ddns.net
+  height = 21
+}
+
+customization {
+  path = CustomMenu/discord.png
+  orientation = top-left
+  x = 1
+  width = 34
+  action = addtexture
+  actionid = 8eb18309-72c1-4609-85c4-77175141c41f1635820500525
+  y = 351
+  height = 31
+}
+
