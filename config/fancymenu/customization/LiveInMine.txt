@@ -19,18 +19,6 @@ customization {
   basewidth = 1360
 }
 
-customization {
-  keepaspectratio = true
-  action = backgroundoptions
-}
-
-customization {
-  identifier = %id=400322%
-  orientation = mid-right
-  x = -201
-  action = movebutton
-  y = -23
-}
 
 customization {
   identifier = %id=400322%
@@ -42,83 +30,12 @@ customization {
   action = hidebutton
 }
 
-customization {
-  identifier = %id=604382%
-  orientation = mid-right
-  x = -262
-  action = movebutton
-  y = -49
-}
-
-customization {
-  identifier = %id=604382%
-  width = 19
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=604382%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
-  identifier = %id=376322%
-  orientation = mid-centered
-  x = 145
-  action = movebutton
-  y = -46
-}
-
-customization {
-  identifier = %id=376322%
-  width = 20
-  action = resizebutton
-  height = 21
-}
-
-customization {
-  identifier = %id=376322%
-  action = vanilla_button_visibility_requirements
-}
-
-customization {
-  identifier = %id=400382%
-  orientation = mid-right
-  x = -100
-  action = movebutton
-  y = -1
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttonlabel
-  value = Opções
-}
-
-customization {
-  identifier = %id=400382%
-  action = vanilla_button_visibility_requirements
-}
 
 customization {
   identifier = %id=502382%
   action = hidebutton
 }
 
-customization {
-  identifier = %id=502382%
-  orientation = bottom-right
-  x = -375
-  action = movebutton
-  y = -213
-}
-
-customization {
-  identifier = %id=502382%
-  action = setbuttonlabel
-  value = &cSair do Jogo
-}
 
 customization {
   identifier = %id=502382%
@@ -127,49 +44,9 @@ customization {
 
 customization {
   identifier = %id=376382%
-  orientation = mid-centered
-  x = 169
-  action = movebutton
-  y = 25
-}
-
-customization {
-  identifier = %id=376382%
-  width = 21
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = Linguagem
-}
-
-customization {
-  identifier = %id=376382%
-  action = sethoverlabel
-  label = 
-}
-
-customization {
-  identifier = %id=376382%
   action = vanilla_button_visibility_requirements
 }
 
-customization {
-  identifier = %id=400298%
-  orientation = mid-right
-  x = -201
-  action = movebutton
-  y = -69
-}
-
-customization {
-  identifier = %id=400298%
-  action = sethoverlabel
-  label = 
-}
 
 customization {
   identifier = %id=400298%
@@ -194,13 +71,6 @@ customization {
   action = hidebutton
 }
 
-customization {
-  identifier = %id=502346%
-  orientation = top-right
-  x = -170
-  action = movebutton
-  y = 95
-}
 
 customization {
   identifier = %id=502346%
@@ -216,22 +86,6 @@ customization {
   actionid = 4921353d-6097-41c4-abc8-681357eeeccf1635815285297
   y = 9
   height = 145
-}
-
-customization {
-  orientation = top-left
-  restartbackgroundanimations = true
-  buttonaction = quitgame
-  label = §cSair do Jogo
-  loopbackgroundanimations = true
-  hoverlabel = &cSentiremos sua falta!
-  x = 578
-  width = 122
-  actionid = 394c48f7-28be-4aa6-9182-f7c304976d891635815903201
-  action = addbutton
-  y = 217
-  value = 
-  height = 20
 }
 
 customization {
